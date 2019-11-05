@@ -1,0 +1,486 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="../images/icons/icono.png" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="../vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="../fonts/iconic/css/material-design-iconic-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="../fonts/linearicons-v1.0.0/icon-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="../vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="../vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="../vendor/animsition/css/animsition.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="../vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="../vendor/daterangepicker/daterangepicker.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="../vendor/slick/slick.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="../vendor/MagnificPopup/magnific-popup.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="../vendor/perfect-scrollbar/perfect-scrollbar.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="../css/util.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <!--===============================================================================================-->
+</head>
+<body class="animsition" onmousemove="ver()">
+
+    <!-- Header -->
+    <header class="header-v4">
+        <!-- Header desktop -->
+        <div class="container-menu-desktop">
+            <!-- Topbar -->
+            <div class="top-bar">
+                <div class="content-topbar flex-sb-m h-full container">
+                    <div class="left-top-bar">
+                    </div>
+                    <div id="contenido">
+
+                    </div>
+                    <!--<div class="right-top-bar flex-w h-full">
+                        <a href="logeo.html" class="flex-c-m trans-04 p-lr-25">
+                            Iniciar sesión
+                        </a>
+                    </div>-->
+                </div>
+            </div>
+
+            <div class="wrap-menu-desktop how-shadow1">
+                <nav class="limiter-menu-desktop container">
+
+                    <!-- Logo desktop -->
+                    <a href="../index.html" class="logo">
+                        <img src="../images/icons/LOGO FEMENI ok-01.jpg" alt="IMG-LOGO">
+                    </a>
+
+                    <!-- Menu desktop -->
+                    <div id="Barramenu">
+
+                    </div>
+
+                    <!-- Icon header -->
+                    <div class="wrap-icon-header flex-w flex-r-m">
+                        <div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 js-show-modal-search">
+                            <i class="zmdi zmdi-search"></i>
+                        </div>
+
+                        <!-- ICONO DE CARRO Y ME GUSTA -->
+                        <div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart" data-notify="0">
+                            <i class="zmdi zmdi-shopping-cart"></i>
+                        </div>
+                        <a href="#" class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti" data-notify="0">
+                            <i class="zmdi zmdi-favorite-outline"></i>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Header Mobile -->
+        <div class="wrap-header-mobile">
+            <!-- Logo moblie -->
+            <div class="logo-mobile">
+                <a href="../index.html"><img src="../images/icons/LOGO FEMENI ok-01.jpg" alt="IMG-LOGO"></a>
+            </div>
+
+            <!-- Icon header -->
+            <div class="wrap-icon-header flex-w flex-r-m m-r-15">
+                <div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 js-show-modal-search">
+                    <i class="zmdi zmdi-search"></i>
+                </div>
+
+                <div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti js-show-cart"
+                     data-notify="2">
+                    <i class="zmdi zmdi-shopping-cart"></i>
+                </div>
+
+                <a href="#" class="dis-block icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti"
+                   data-notify="0">
+                    <i class="zmdi zmdi-favorite-outline"></i>
+                </a>
+            </div>
+
+            <!-- Button show menu -->
+            <div class="btn-show-menu-mobile hamburger hamburger--squeeze">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </div>
+        </div>
+
+
+        <!-- Menu Mobile -->
+        <div class="menu-mobile">
+            <ul class="topbar-mobile">
+                <li>
+                    <div class="left-top-bar">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="right-top-bar flex-w h-full">
+
+                        <a href="App/logeo.html" class="flex-c-m p-lr-10 trans-04">
+                            Iniciar sesión
+                        </a>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="main-menu-m">
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+
+                <li>
+                    <a href="product.html">Tienda</a>
+                </li>
+
+                <li>
+                    <a href="shoping-cart.html">Mi carro</a>
+                </li>
+
+                <li>
+                    <a href="contact.html">Contacto</a>
+                </li>
+
+                <li>
+                    <a href="perfil.html">Mi Perfil</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Modal Search -->
+        <div class="modal-search-header flex-c-m trans-04 js-hide-modal-search">
+            <div class="container-search-header">
+                <button class="flex-c-m btn-hide-modal-search trans-04 js-hide-modal-search">
+                    <img src="images/icons/icon-close2.png" alt="CLOSE">
+                </button>
+
+                <form class="wrap-search-header flex-w p-l-15">
+                    <button class="flex-c-m trans-04">
+                        <i class="zmdi zmdi-search"></i>
+                    </button>
+                    <input class="plh3" type="text" name="search" placeholder="Search...">
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <!-- Cart -->
+    <div class="wrap-header-cart js-panel-cart">
+        <div class="s-full js-hide-cart"></div>
+
+        <div class="header-cart flex-col-l p-l-65 p-r-25">
+            <div class="header-cart-title flex-w flex-sb-m p-b-8">
+                <span class="mtext-103 cl2">
+                    Your Cart
+                </span>
+
+                <div class="fs-35 lh-10 cl2 p-lr-5 pointer hov-cl1 trans-04 js-hide-cart">
+                    <i class="zmdi zmdi-close"></i>
+                </div>
+            </div>
+
+            <div class="header-cart-content flex-w js-pscroll">
+                <ul class="header-cart-wrapitem w-full">
+                    <li class="header-cart-item flex-w flex-t m-b-12">
+                        <div class="header-cart-item-img">
+                            <img src="../images/item-cart-01.jpg" alt="IMG">
+                        </div>
+
+                        <div class="header-cart-item-txt p-t-8">
+                            <a href="#" class="header-cart-item-name m-b-18 hov-cl1 trans-04">
+                                White Shirt Pleat
+                            </a>
+
+                            <span class="header-cart-item-info">
+                                1 x $19.00
+                            </span>
+                        </div>
+                    </li>
+
+                    <li class="header-cart-item flex-w flex-t m-b-12">
+                        <div class="header-cart-item-img">
+                            <img src="../images/item-cart-02.jpg" alt="IMG">
+                        </div>
+
+                        <div class="header-cart-item-txt p-t-8">
+                            <a href="#" class="header-cart-item-name m-b-18 hov-cl1 trans-04">
+                                Converse All Star
+                            </a>
+
+                            <span class="header-cart-item-info">
+                                1 x $39.00
+                            </span>
+                        </div>
+                    </li>
+
+                    <li class="header-cart-item flex-w flex-t m-b-12">
+                        <div class="header-cart-item-img">
+                            <img src="images/item-cart-03.jpg" alt="IMG">
+                        </div>
+
+                        <div class="header-cart-item-txt p-t-8">
+                            <a href="#" class="header-cart-item-name m-b-18 hov-cl1 trans-04">
+                                Nixon Porter Leather
+                            </a>
+
+                            <span class="header-cart-item-info">
+                                1 x $17.00
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="w-full">
+                    <div class="header-cart-total w-full p-tb-40">
+                        Total: $75.00
+                    </div>
+
+                    <div class="header-cart-buttons flex-w w-full">
+                        <a href="shoping-cart.html"
+                           class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-r-8 m-b-10">
+                            View Cart
+                        </a>
+
+                        <a href="shoping-cart.html"
+                           class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-b-10">
+                            Check Out
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Product -->
+    <table class="table">
+        <!--<thead>
+            <tr>
+                <th scope="col">PRODUCTO</th>
+                <th scope="col">REFERENCIA</th>
+            </tr>
+        </thead>-->
+        <tbody id="Tablaproductonueva"></tbody>
+    </table>
+
+
+    <!-- Back to top -->
+    <div class="btn-back-to-top" id="myBtn">
+        <span class="symbol-btn-back-to-top">
+            <i class="zmdi zmdi-chevron-up"></i>
+        </span>
+    </div>
+
+    <section class="bg0 p-t-104 p-b-116">
+        <div class="container">
+            <div class="flex-w flex-tr">
+                <div class="size-210 bor10 p-lr-70 p-t-55 p-b-70 p-lr-15-lg w-full-md">
+                    <!-- banner de producto -->
+                    <section class="section-slide">
+                        <div class="wrap-slick1">
+                            <div class="slick1">
+                                <!--Imagen 1-->
+                                <div class="item-slick1 " style="background-image: url(https://codigoesports.com/wp-content/uploads/2019/03/ricardo-milos-stream-lol-que-le-paso-a-2019-actual-360x280.jpg);">
+                                    <!--<div class="item-slick1 img-fluid" style="background-image: url(images/zapatos_2.jpg);">-->
+                                    
+                                </div>
+                                <!--Imagen 2-->
+                                <div class="item-slick1" style="background-image: url(data:image/jpeg;base64,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);">
+                                    
+                                </div>
+                                <!--Imagen 3-->
+                                <!--<div class="item-slick1" style="background-image: url(images/slide-03.jpg);">
+                                    <div class="container h-full">
+                                        <div class="flex-col-l-m h-full p-t-100 p-b-30 respon5">
+                                            <div class="layer-slick1 animated visible-false" data-appear="rotateInDownLeft" data-delay="0">
+                                                <span class="ltext-101 cl2 respon2">
+                                                    Men Collection 2018
+                                                </span>
+                                            </div>
+
+                                            <div class="layer-slick1 animated visible-false" data-appear="rotateInUpRight" data-delay="800">
+                                                <h2 class="ltext-201 cl2 p-t-19 p-b-43 respon1">
+                                                    New arrivals
+                                                </h2>
+                                            </div>
+
+                                            <div class="layer-slick1 animated visible-false" data-appear="rotateIn" data-delay="1600">
+                                                <a href="product.html" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04">
+                                                    Shop Now
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>-->
+                            </div>
+                        </div>
+                    </section>
+
+
+                </div>
+                <div class="size-210 bor10 flex-w flex-col-m p-lr-93 p-tb-30 p-lr-15-lg w-full-md">
+                    <div class="flex-w w-full p-b-42">
+
+
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+    </section>
+
+   <!--===============================================================================================-->
+    <script src="../vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="../vendor/animsition/js/animsition.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="../vendor/bootstrap/js/popper.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="../vendor/select2/select2.min.js"></script>
+    <script>
+		$(".js-select2").each(function () {
+			$(this).select2({
+				minimumResultsForSearch: 20,
+				dropdownParent: $(this).next('.dropDownSelect2')
+			});
+		})
+    </script>
+    <!--===============================================================================================-->
+    <script src="../vendor/daterangepicker/moment.min.js"></script>
+    <script src="../vendor/daterangepicker/daterangepicker.js"></script>
+    <!--===============================================================================================-->
+    <script src="../vendor/slick/slick.min.js"></script>
+    <script src="../js/slick-custom.js"></script>
+    <!--===============================================================================================-->
+    <script src="../vendor/parallax100/parallax100.js"></script>
+    <script>
+		$('.parallax100').parallax100();
+    </script>
+    <!--===============================================================================================-->
+    <script src="../vendor/MagnificPopup/jquery.magnific-popup.min.js"></script>
+    <script>
+		$('.gallery-lb').each(function () { // the containers for all your galleries
+			$(this).magnificPopup({
+				delegate: 'a', // the selector for gallery item
+				type: 'image',
+				gallery: {
+					enabled: true
+				},
+				mainClass: 'mfp-fade'
+			});
+		});
+    </script>
+    <!--===============================================================================================-->
+    <script src="../vendor/isotope/isotope.pkgd.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="../vendor/sweetalert/sweetalert.min.js"></script>
+    <script>
+		$('.js-addwish-b2, .js-addwish-detail').on('click', function (e) {
+			e.preventDefault();
+		});
+
+		$('.js-addwish-b2').each(function () {
+			var nameProduct = $(this).parent().parent().find('.js-name-b2').html();
+			$(this).on('click', function () {
+				swal(nameProduct, "is added to wishlist !", "success");
+
+				$(this).addClass('js-addedwish-b2');
+				$(this).off('click');
+			});
+		});
+
+		$('.js-addwish-detail').each(function () {
+			var nameProduct = $(this).parent().parent().parent().find('.js-name-detail').html();
+
+			$(this).on('click', function () {
+				swal(nameProduct, "is added to wishlist !", "success");
+
+				$(this).addClass('js-addedwish-detail');
+				$(this).off('click');
+			});
+		});
+
+		/*---------------------------------------------*/
+
+		$('.js-addcart-detail').each(function () {
+			var nameProduct = $(this).parent().parent().parent().parent().find('.js-name-detail').html();
+			$(this).on('click', function () {
+				swal(nameProduct, "is added to cart !", "success");
+			});
+		});
+
+    </script>
+    <!--===============================================================================================-->
+    <script src="../vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <script>
+		$('.js-pscroll').each(function () {
+			$(this).css('position', 'relative');
+			$(this).css('overflow', 'hidden');
+			var ps = new PerfectScrollbar(this, {
+				wheelSpeed: 1,
+				scrollingThreshold: 1000,
+				wheelPropagation: false,
+			});
+
+			$(window).on('resize', function () {
+				ps.update();
+			})
+		});
+    </script>
+    <!--===============================================================================================-->
+    <script src="../js/main.js"></script>
+    <!--------------------FIREBASE------------------>
+    <script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-auth.js"></script>
+    <!--NO OLVIDAR-->
+    <script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-firestore.js"></script>
+
+    <script src="../js/autentificacion.js"></script>
+
+    <script src="../js/verificacion.js"></script>
+    <script type="text/javascript">
+        window.onload = function hola() {
+
+            //apareceAdmin();
+            ver();
+        }
+
+        function ver() {
+            firebase.auth().onAuthStateChanged(function (user) {
+                if (user) {
+                    var user = firebase.auth().currentUser;
+                    var uid, email;
+                    if (user != null) {
+                        uid = user.uid;
+                        email = user.email;
+                    }
+                    var elemento = document.getElementById('Useree');
+                    elemento.innerHTML = email;
+                } else {
+                    // No user is signed in.
+                }
+            });
+        }
+    </script>
+</body>
+</html>

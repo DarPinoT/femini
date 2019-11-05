@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Logeo</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300, 400, 500" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+    <link rel="stylesheet" href="../css/style_logeo.css">
+    <!--<link rel="stylesheet" href="css/style_logeo.css">-->
+
+</head>
+<body>
+    <!--
+      This was created based on the Dribble shot by Deepak Yadav that you can find at https://goo.gl/XRALsw
+      I am @hurickkrugner on Twitter or @hk95 on GitHub. Feel free to message me anytime.
+    -->
+    <section class="user">
+        <div class="user_options-container">
+            <div class="user_options-text">
+                <div class="user_options-unregistered">
+                    <h2 class="user_unregistered-title">¿No tienes Cuenta?</h2>
+                    <!--<p class="user_unregistered-text">Banjo tote bag bicycle rights, High Life sartorial cray craft beer whatever street art fap.</p>-->
+                    <button class="user_unregistered-signup" id="signup-button">Registrarse</button>
+                </div>
+                <div class="user_options-registered">
+                    <h2 class="user_registered-title">¿Tienes cuenta?</h2>
+                    <!--<p class="user_registered-text">Banjo tote bag bicycle rights, High Life sartorial cray craft beer whatever street art fap.</p>-->
+                    <button class="user_registered-login" id="login-button">Iniciar sesion</button>
+                </div>
+            </div>
+
+            <div class="user_options-forms" id="user_options-forms" >
+                <!-- Iniciar sesion -->
+                <div class="user_forms-login">
+                    <h2 class="forms_title">Iniciar sesion</h2>
+
+                    <!--<form class="forms_form" action="#">-->
+                    <div class="forms_form">
+                        <fieldset class="forms_fieldset">
+                            <div class="forms_field">
+                                <input id="usuario" type="text" placeholder="Email" class="forms_field-input" required autofocus />
+                            </div>
+                            <div class="forms_field">
+                                <input id="contraseña" type="password" placeholder="Contraseña" class="forms_field-input" required />
+                            </div>
+                        </fieldset>
+                        <div class="forms_buttons">
+                            <button type="button" onclick="salir()"  class="forms_buttons-forgot">Olvido la contraseña?</button>
+
+                            <button id="boto" type="button" onclick="loginApp()" class="forms_buttons-action">Iniciar sesion</button>
+                            <!--<button id="boto" type="button" onclick="iniciarsesion()" class="forms_buttons-action">Iniciar sesion</button>-->
+                            <!--<input id="boto" onclick="iniciar_sesion()" type="submit" value="Iniciar sesion" class="forms_buttons-action">-->
+                        </div>
+                    </div>
+                    <!--</form>-->
+
+                </div>
+                <!-- Registrarse -->
+                <div class="user_forms-signup " >
+                    <h2 class="forms_title ">Registrarse </h2>
+                    <form class="forms_form">
+                        <fieldset class="forms_fieldset">
+
+                            <div style="margin: 0; width:auto; -webkit-box-sizing:border-box; -moz-box-sizing: border-box; box-sizing: border-box;" >
+                                <input id="Nombre2" type="text" placeholder="Nombre completo" class="forms_field-input" required />
+                            </div>
+                            <div style="margin: 0; width:auto; -webkit-box-sizing:border-box; -moz-box-sizing: border-box; box-sizing: border-box;">
+                                <input id="Correo2" type="email" placeholder="Email" class="forms_field-input" required />
+                            </div>
+                            <div style="margin: 0; width:auto; -webkit-box-sizing:border-box; -moz-box-sizing: border-box; box-sizing: border-box;">
+                                <input id="contraseña2" type="password" placeholder="Contraseña" class="forms_field-input" required />
+                            </div>
+                            <div style="margin: 0; width:auto; -webkit-box-sizing:border-box; -moz-box-sizing: border-box; box-sizing: border-box;">
+                                <input id="direcio2" type="text" placeholder="Direccion" class="forms_field-input" required />
+                            </div>
+
+                            <div style="margin: 0; width:auto; -webkit-box-sizing:border-box; -moz-box-sizing: border-box; box-sizing: border-box;">
+                                <input id="identificacion2" type="number" placeholder="Identificacion" class="forms_field-input" required />
+                            </div>
+                            <div style="margin: 0; width:auto; -webkit-box-sizing:border-box; -moz-box-sizing: border-box; box-sizing: border-box;">
+                                <input id="telefono2" type="tel" placeholder="Telefono" class="forms_field-input" required />
+                            </div>
+
+                        </fieldset>
+                        <div class="forms_buttons">
+                            <!---------------BOTON PARA REGISTRAR USUARIOS EN BASE DE DaTOS----------------------->
+                            <!--<button id="boto2" type="button" onclick="RegistroUsuario()" class="forms_buttons-action">Registrar</button>-->
+                            <!---------------------------------->
+
+                            <!-------------BOTON PARA TRAER DATOS GUARDADOS--------------------->
+                            <!--<button id="boto3" type="button" onclick="leer()" class="forms_buttons-action">Leer</button>-->
+                            <!---------------------------------->
+
+                            <button id="boton2" type="button" onclick="Registrar()" class="forms_buttons-action">Registrar</button>
+                            <!--<input type="submit" value="Registrar" class="forms_buttons-action">-->
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="../js/index_logeo.js"></script>
+    <!--<script src="../js/usuario.js"></script>-->
+
+    <script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-auth.js"></script>
+    <!--NO OLVIDAR-->
+    <script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-firestore.js"></script>
+
+    <script src="../js/autentificacion.js"></script>
+</body>
+</html>

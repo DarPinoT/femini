@@ -1,0 +1,763 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Principal</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/icono.png"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/linearicons-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/MagnificPopup/magnific-popup.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/perfect-scrollbar.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/ventana.css">
+<!--===============================================================================================-->
+
+<!--===============================================================================================-->
+</head>
+<body class="animsition" onmousemove="ver()" >
+	
+	<!-- Header -->
+	<header >
+		<!-- Header desktop -->
+		<div class="container-menu-desktop" >
+			<!-- Topbar -->
+			<div class="top-bar">
+				<div class="content-topbar flex-sb-m h-full container">
+					<div class="left-top-bar">
+					</div>
+
+                    <div id="contenido">
+
+                    </div>
+
+					<!--<div class="right-top-bar flex-w h-full">
+						<a href="App/logeo.html" class="flex-c-m trans-04 p-lr-25">
+							Iniciar sesión
+						</a>
+					</div>-->
+				</div>
+			</div>
+            <!--Aqui va la barra-->
+			<div class="wrap-menu-desktop" style="background-color:white">
+				<nav class="limiter-menu-desktop container">
+
+					<!-- Logo desktop -->		
+					<a href="index.html" class="logo">
+						<img src="images/icons/LOGO FEMENI ok-01.jpg" alt="IMG-LOGO">
+					</a>
+
+					<!-- Menu desktop -->
+                    <div id="Barramenu">
+                    
+                    </div>
+
+					<!-- Icon header -->
+					<div class="wrap-icon-header flex-w flex-r-m">
+						<div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 js-show-modal-search">
+							<i class="zmdi zmdi-search"></i>
+						</div>
+
+						<div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 js-show-cart">
+							<i  class="zmdi zmdi-shopping-cart"></i>
+						</div>
+
+						<!--<a href="#" class="dis-block icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti" data-notify="0">
+							<i class="zmdi zmdi-favorite-outline"></i>
+						</a>-->
+					</div>
+				</nav>
+			</div>	
+		</div>
+
+		<!-- Header Mobile -->
+		<div class="wrap-header-mobile">
+			<!-- Logo moblie -->		
+			<div class="logo-mobile">
+				<a href="index.html"><img src="images/icons/LOGO FEMENI ok-01.jpg" alt="IMG-LOGO"></a>
+			</div>
+
+			<!-- Icon header -->
+			<div class="wrap-icon-header flex-w flex-r-m m-r-15">
+				<div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 js-show-modal-search">
+					<i class="zmdi zmdi-search"></i>
+				</div>
+
+				<div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti js-show-cart" data-notify="2">
+					<i class="zmdi zmdi-shopping-cart"></i>
+				</div>
+
+				<a href="#" class="dis-block icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti" data-notify="0">
+					<i class="zmdi zmdi-favorite-outline"></i>
+				</a>
+			</div>
+
+			<!-- Button show menu -->
+			<div class="btn-show-menu-mobile hamburger hamburger--squeeze">
+				<span class="hamburger-box">
+					<span class="hamburger-inner"></span>
+				</span>
+			</div>
+		</div>
+
+
+		<!-- Menu Mobile -->
+		<div class="menu-mobile">
+			<ul class="topbar-mobile">
+				<li>
+					<div class="left-top-bar">
+					</div>
+				</li>
+
+				<li>
+					<div class="right-top-bar flex-w h-full">
+
+						<a href="App/logeo.html" class="flex-c-m p-lr-10 trans-04">
+							Iniciar sesión
+						</a>
+					</div>
+				</li>
+			</ul>
+
+			<ul class="main-menu-m">
+                <li>
+                    <a href="index.html">Inicio</a>
+				</li>
+
+				<li>
+					<a href="App/product.html">Tienda</a>
+				</li>
+
+				<li>
+					<a href="App/shoping-cart.html" >Mi carro</a>
+				</li>
+
+				<li>
+					<a href="App/contact.html">Contacto</a>
+				</li>
+
+                <li>
+                    <a href="App/perfil.html">Mi Perfil</a>
+                </li>
+			</ul>
+		</div>
+
+		<!-- Modal Search -->
+		<div class="modal-search-header flex-c-m trans-04 js-hide-modal-search">
+			<div class="container-search-header">
+				<button class="flex-c-m btn-hide-modal-search trans-04 js-hide-modal-search">
+					<img src="images/icons/icon-close2.png" alt="CLOSE">
+				</button>
+
+				<form class="wrap-search-header flex-w p-l-15">
+					<button class="flex-c-m trans-04">
+						<i class="zmdi zmdi-search"></i>
+					</button>
+					<input class="plh3" type="text" name="search" placeholder="Search...">
+				</form>
+			</div>
+		</div>
+	</header>
+
+	<!-- Cart -->
+    <div class="wrap-header-cart js-panel-cart">
+        <div class="s-full js-hide-cart"></div>
+
+        <div class="header-cart flex-col-l p-l-65 p-r-25">
+            <div class="header-cart-title flex-w flex-sb-m p-b-8">
+                <span class="mtext-103 cl2">
+                    Tu carro
+                </span>
+
+                <div class="fs-35 lh-10 cl2 p-lr-5 pointer hov-cl1 trans-04 js-hide-cart">
+                    <i class="zmdi zmdi-close"></i>
+                </div>
+            </div>
+
+            <div class="header-cart-content flex-w js-pscroll">
+
+                <table class="table header-cart-content flex-w js-pscroll">
+                    <tbody id="carrimagen"></tbody>
+                </table>
+
+                <div>
+
+                </div>
+
+                <div class="w-full">
+                    <div id="totalcarroico" class="header-cart-total w-full p-tb-40">
+
+                    </div>
+
+                    <div class="header-cart-buttons flex-w w-full">
+                        <a href="shoping-cart.html"
+                           class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-r-8 m-b-10">
+                            Ver carro
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<!-- Slider Imagenes Grandes -->
+	<section class="section-slide">
+		<div class="wrap-slick1">
+			<div class="slick1">
+                <!--Imagen 1-->
+				<div class="item-slick1 " style="background-image: url(images/zapatos.jpg);">
+                <!--<div class="item-slick1 img-fluid" style="background-image: url(images/zapatos_2.jpg);">-->
+                    <div class="container h-full">
+                        <div class="flex-col-l-m h-full p-t-100 p-b-30 respon5">
+                            <div class="layer-slick1 animated visible-false" data-appear="fadeInDown" data-delay="0">
+                                <span class="ltext-101 cl2 respon2">
+                                    Coleccion 2019
+                                </span>
+                            </div>
+
+                            <div class="layer-slick1 animated visible-false" data-appear="fadeInUp" data-delay="800">
+                                <h2 class="ltext-201 cl2 p-t-19 p-b-43 respon1">
+                                    NUEVA TEMPORADA
+                                </h2>
+                            </div>
+
+                            <div class="layer-slick1 animated visible-false" data-appear="zoomIn" data-delay="1600">
+                                <a href="App/product.html" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04">
+                                    Comprar ahora
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Imagen 2-->
+				<div class="item-slick1" style="background-image: url(images/cartera.jpg);">
+					<div class="container h-full">
+						<div class="flex-col-l-m h-full p-t-100 p-b-30 respon5">
+							<div class="layer-slick1 animated visible-false" data-appear="rollIn" data-delay="0">
+								<span class="ltext-101 cl2 respon2">
+									Coleccion de bolsos
+								</span>
+							</div>
+								
+							<div class="layer-slick1 animated visible-false" data-appear="lightSpeedIn" data-delay="800">
+								<h2 class="ltext-201 cl2 p-t-19 p-b-43 respon1">
+									NUEVOS
+								</h2>
+							</div>
+								
+							<div class="layer-slick1 animated visible-false" data-appear="slideInUp" data-delay="1600">
+								<a href="App/product.html" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04">
+                                    Comprar ahora
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+                <!--Imagen 3-->
+				<!--<div class="item-slick1" style="background-image: url(images/slide-03.jpg);">
+					<div class="container h-full">
+						<div class="flex-col-l-m h-full p-t-100 p-b-30 respon5">
+							<div class="layer-slick1 animated visible-false" data-appear="rotateInDownLeft" data-delay="0">
+								<span class="ltext-101 cl2 respon2">
+									Men Collection 2018
+								</span>
+							</div>
+								
+							<div class="layer-slick1 animated visible-false" data-appear="rotateInUpRight" data-delay="800">
+								<h2 class="ltext-201 cl2 p-t-19 p-b-43 respon1">
+									New arrivals
+								</h2>
+							</div>
+								
+							<div class="layer-slick1 animated visible-false" data-appear="rotateIn" data-delay="1600">
+								<a href="product.html" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04">
+									Shop Now
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>-->
+			</div>
+		</div>
+	</section>
+
+	<!-- Banner -->
+    <div class="sec-banner bg0 p-t-80 p-b-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xl-4 p-b-30 m-lr-auto">
+                    <!-- Block1 -->
+                    <div class="block1 wrap-pic-w">
+                        <img src="http://saraoregalos.es/wp-content/uploads/2016/06/zapatos-ss-2016.jpg" alt="IMG-BANNER">
+
+                        <a href="../public/App/product.html" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
+                            <div class="block1-txt-child1 flex-col-l">
+                                <span class="block1-name ltext-102 trans-04 p-b-8">
+                                    Zapatos
+                                </span>
+
+                                <!--<span class="block1-info stext-102 trans-04">
+                                    Spring 2018
+                                </span>-->
+                            </div>
+
+                            <div class="block1-txt-child2 p-b-4 trans-05">
+                                <div class="block1-link stext-101 cl0 trans-09">
+                                    Comprar ahora
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-xl-4 p-b-30 m-lr-auto">
+                    <!-- Block1 -->
+                    <div class="block1 wrap-pic-w">
+                        <img src="https://watermark.lovepik.com/photo/50012/9729.jpg_wh1200.jpg" alt="IMG-BANNER">
+
+                        <a href="App/product.html" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
+                            <div class="block1-txt-child1 flex-col-l">
+                                <span class="block1-name ltext-102 trans-04 p-b-8">
+                                    Bolsos
+                                </span>
+
+                                <!--<span class="block1-info stext-102 trans-04">
+                                    Spring 2018
+                                </span>-->
+                            </div>
+
+                            <div class="block1-txt-child2 p-b-4 trans-05">
+                                <div class="block1-link stext-101 cl0 trans-09">
+                                    Comprar ahora
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+	<!-- Product -->
+    <section class="bg0 p-t-23 p-b-140">
+        <div class="container">
+            <!-----------TITULO PRODUCTO------------>
+            <div class="p-b-10">
+                <h3 class="ltext-103 cl5">
+                    Productos
+                </h3>
+            </div>
+
+            <!-----FILTRO Y NOMBRE DE FILTROS------->
+            <div class="flex-w flex-sb-m p-b-52">
+                <!--<div class="flex-w flex-l-m filter-tope-group m-tb-10">
+                    <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1" data-filter="*">
+                    <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" onclick="mostrarproductos()">
+                        Todos los productos
+                    </button>
+
+                    <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".women">
+                    <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" onclick="mostrarzapatos()">
+                        Zapatos
+                    </button>
+
+                    <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".men">
+                    <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" onclick="mostrarbolsos()">
+                        Bolsos
+                    </button>
+                </div>-->
+
+                <!--<div class="flex-w flex-c-m m-tb-10">
+                    <div class="flex-c-m stext-106 cl6 size-104 bor4 pointer hov-btn3 trans-04 m-r-8 m-tb-4 js-show-filter">
+                        <i class="icon-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-filter-list"></i>
+                        <i class="icon-close-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
+                        Filtro
+                    </div>
+
+                    <div class="flex-c-m stext-106 cl6 size-105 bor4 pointer hov-btn3 trans-04 m-tb-4 js-show-search">
+                        <i class="icon-search cl2 m-r-6 fs-15 trans-04 zmdi zmdi-search"></i>
+                        <i class="icon-close-search cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
+                        Buscar
+                    </div>
+                </div>-->
+
+                <!-- Search product -->
+                <div class="dis-none panel-search w-full p-t-10 p-b-15">
+                    <div class="bor8 dis-flex p-l-15">
+                        <button class="size-113 flex-c-m fs-16 cl2 hov-cl1 trans-04">
+                            <i class="zmdi zmdi-search"></i>
+                        </button>
+
+                        <input class="mtext-107 cl2 size-114 plh2 p-r-15" type="text" name="search-product" placeholder="Buscar">
+                    </div>
+                </div>
+
+                <!-- Filter -->
+                <div class="dis-none panel-filter w-full p-t-10">
+                    <div class="wrap-filter flex-w bg6 w-full p-lr-40 p-t-27 p-lr-15-sm">
+                        <div class="filter-col1 p-r-15 p-b-27">
+                            <div class="mtext-102 cl2 p-b-15">
+                                Ordenar por producto
+                            </div>
+
+                            <ul>
+                                <li class="p-b-6">
+                                    <a href="#" class="filter-link stext-106 trans-04">
+                                        Defecto
+                                    </a>
+                                </li>
+
+                                <li class="p-b-6">
+                                    <a href="#" class="filter-link stext-106 trans-04">
+                                        Popularidad
+                                    </a>
+                                </li>
+
+                                <li class="p-b-6">
+                                    <a href="#" class="filter-link stext-106 trans-04 filter-link-active">
+                                        Nuevos
+                                    </a>
+                                </li>
+
+                                <li class="p-b-6">
+                                    <a href="#" class="filter-link stext-106 trans-04">
+                                        Precio: mayor a menor
+                                    </a>
+                                </li>
+
+                                <li class="p-b-6">
+                                    <a href="#" class="filter-link stext-106 trans-04">
+                                        Precio: menor a mayor
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="filter-col2 p-r-15 p-b-27">
+                            <div class="mtext-102 cl2 p-b-15">
+                                Precio
+                            </div>
+
+                            <ul>
+                                <li class="p-b-6">
+                                    <a href="#" class="filter-link stext-106 trans-04 filter-link-active">
+                                        Todos
+                                    </a>
+                                </li>
+
+                                <li class="p-b-6">
+                                    <a href="#" class="filter-link stext-106 trans-04">
+                                        $0.00 - $50.00
+                                    </a>
+                                </li>
+
+                                <li class="p-b-6">
+                                    <a href="#" class="filter-link stext-106 trans-04">
+                                        $50.00 - $100.00
+                                    </a>
+                                </li>
+
+                                <li class="p-b-6">
+                                    <a href="#" class="filter-link stext-106 trans-04">
+                                        $100.00 - $150.00
+                                    </a>
+                                </li>
+
+                                <li class="p-b-6">
+                                    <a href="#" class="filter-link stext-106 trans-04">
+                                        $150.00 - $200.00
+                                    </a>
+                                </li>
+
+                                <li class="p-b-6">
+                                    <a href="#" class="filter-link stext-106 trans-04">
+                                        $200.00+
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="filter-col3 p-r-15 p-b-27">
+                            <div class="mtext-102 cl2 p-b-15">
+                                Color
+                            </div>
+
+                            <ul>
+                                <li class="p-b-6">
+                                    <span class="fs-15 lh-12 m-r-6" style="color: #222;">
+                                        <i class="zmdi zmdi-circle"></i>
+                                    </span>
+
+                                    <a href="#" class="filter-link stext-106 trans-04">
+                                        Negro
+                                    </a>
+                                </li>
+
+                                <li class="p-b-6">
+                                    <span class="fs-15 lh-12 m-r-6" style="color: #4272d7;">
+                                        <i class="zmdi zmdi-circle"></i>
+                                    </span>
+
+                                    <a href="#" class="filter-link stext-106 trans-04 filter-link-active">
+                                        Azul
+                                    </a>
+                                </li>
+
+                                <li class="p-b-6">
+                                    <span class="fs-15 lh-12 m-r-6" style="color: #b3b3b3;">
+                                        <i class="zmdi zmdi-circle"></i>
+                                    </span>
+
+                                    <a href="#" class="filter-link stext-106 trans-04">
+                                        Gris
+                                    </a>
+                                </li>
+
+                                <li class="p-b-6">
+                                    <span class="fs-15 lh-12 m-r-6" style="color: #00ad5f;">
+                                        <i class="zmdi zmdi-circle"></i>
+                                    </span>
+
+                                    <a href="#" class="filter-link stext-106 trans-04">
+                                        Verde
+                                    </a>
+                                </li>
+
+                                <li class="p-b-6">
+                                    <span class="fs-15 lh-12 m-r-6" style="color: #fa4251;">
+                                        <i class="zmdi zmdi-circle"></i>
+                                    </span>
+
+                                    <a href="#" class="filter-link stext-106 trans-04">
+                                        Rojo
+                                    </a>
+                                </li>
+
+                                <li class="p-b-6">
+                                    <span class="fs-15 lh-12 m-r-6" style="color: #aaa;">
+                                        <i class="zmdi zmdi-circle-o"></i>
+                                    </span>
+
+                                    <a href="#" class="filter-link stext-106 trans-04">
+                                        Blaco
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-----------PRODUCTOS------------>
+            <div class="row isotope-grid">
+                <div class="col-md-12">
+                    <div id="productos" class="row">
+                        
+
+                    </div>
+
+
+                    <!-----------BOTON ------------>
+                    <div id="toto" class="flex-c-m flex-w w-full p-t-45">
+
+                    </div>
+                    <br />
+                    <br />
+                    <br />
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--<br />
+    <div class="flex-c-m flex-w w-full p-t-45">
+        <a href="App/product.html" class="flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
+            Mostrar mas
+        </a>
+    </div>
+    <br />
+    <br />-->
+
+    <!----------MODAL------------->
+
+    <div id="mostrar" class="modal"></div>
+    
+	<!-- Back to top -->
+	<!--<div class="btn-back-to-top" id="myBtn">
+		<span class="symbol-btn-back-to-top">
+			<i class="zmdi zmdi-chevron-up"></i>
+		</span>
+	</div>-->
+
+ 
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+	<script>
+		$(".js-select2").each(function(){
+			$(this).select2({
+				minimumResultsForSearch: 20,
+				dropdownParent: $(this).next('.dropDownSelect2')
+			});
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/slick/slick.min.js"></script>
+	<script src="js/slick-custom.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/parallax100/parallax100.js"></script>
+	<script>
+        $('.parallax100').parallax100();
+	</script>
+<!--===============================================================================================-->
+	<script src="vendor/MagnificPopup/jquery.magnific-popup.min.js"></script>
+	<script>
+		$('.gallery-lb').each(function() { // the containers for all your galleries
+			$(this).magnificPopup({
+		        delegate: 'a', // the selector for gallery item
+		        type: 'image',
+		        gallery: {
+		        	enabled:true
+		        },
+		        mainClass: 'mfp-fade'
+		    });
+		});
+	</script>
+<!--===============================================================================================-->
+	<script src="vendor/isotope/isotope.pkgd.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/sweetalert/sweetalert.min.js"></script>
+	<script>
+		$('.js-addwish-b2').on('click', function(e){
+			e.preventDefault();
+		});
+
+		$('.js-addwish-b2').each(function(){
+			var nameProduct = $(this).parent().parent().find('.js-name-b2').html();
+			$(this).on('click', function(){
+				swal(nameProduct, "is added to wishlist !", "success");
+
+				$(this).addClass('js-addedwish-b2');
+				$(this).off('click');
+			});
+		});
+
+		$('.js-addwish-detail').each(function(){
+			var nameProduct = $(this).parent().parent().parent().find('.js-name-detail').html();
+
+			$(this).on('click', function(){
+				swal(nameProduct, "is added to wishlist !", "success");
+
+				$(this).addClass('js-addedwish-detail');
+				$(this).off('click');
+			});
+		});
+
+		/*---------------------------------------------*/
+
+		$('.js-addcart-detail').each(function(){
+			var nameProduct = $(this).parent().parent().parent().parent().find('.js-name-detail').html();
+			$(this).on('click', function(){
+				swal(nameProduct, "is added to cart !", "success");
+			});
+		});
+	
+	</script>
+<!--===============================================================================================-->
+	<script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+	<script>
+		$('.js-pscroll').each(function(){
+			$(this).css('position','relative');
+			$(this).css('overflow','hidden');
+			var ps = new PerfectScrollbar(this, {
+				wheelSpeed: 1,
+				scrollingThreshold: 1000,
+				wheelPropagation: false,
+			});
+
+			$(window).on('resize', function(){
+				ps.update();
+			})
+		});
+	</script>
+<!--===============================================================================================-->
+
+    <script src="/__/firebase/6.1.0/firebase-app.js"></script>
+    <script src="/__/firebase/init.js"></script>
+
+
+	
+    <!--------------------FIREBASE------------------>
+    <script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-auth.js"></script>
+    <!--NO OLVIDAR-->
+    <script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-firestore.js"></script>
+
+    <script src="js/autentificacion.js"></script>
+    
+    <script src="js/verificacionindex.js"></script>
+    <script type="text/javascript">
+        window.onload = function hola()
+        {
+            mostrarproductosindex();
+            mostrarcarro();
+            //mostrarproducto();
+            //apareceAdmin();
+            ver();
+        }
+
+        function ver() {
+            firebase.auth().onAuthStateChanged(function (user) {
+                if (user) {
+                    var user = firebase.auth().currentUser;
+                    var uid, email;
+                    if (user != null) {
+                        uid = user.uid;
+                        email = user.email;
+                    }
+                    var elemento = document.getElementById('Useree');
+                    elemento.innerHTML = email;
+                } else {
+                    // No user is signed in.
+                }
+            });
+
+        }
+    </script>
+    <script src="js/main.js"></script>
+   <!--<script src="js/admin.js"></script>-->
+</body>
+</html>
